@@ -12,8 +12,11 @@
     "@next/font": "13.1.4",
     "@sanity/client": "^4.0.1",
     "@sanity/image-url": "^1.0.2",
+    "@thirdweb-dev/react": "^3.6.10",
+    "@thirdweb-dev/sdk": "^3.6.10",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.4",
+    "ethers": "^5.7.2",
     "next": "13.1.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"

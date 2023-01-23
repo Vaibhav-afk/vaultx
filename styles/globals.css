@@ -105,3 +105,44 @@ a {
     color-scheme: dark;
   }
 }
+
+
+
+/*My styling*/
+
+.wallet{
+  display: flex;
+  height: 100vh;
+  max-width: 100vw;
+  background-color: #0a0b0d;
+  color: white;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.walletButton{
+  /* flex: 0; */
+  border: 1px solid #282b2f;
+  padding: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 0.4rem;
+  background-color: #3773f5;
+  color: #000;
+}
+
+.walletButton:hover {
+  cursor: pointer;
+}
+
+.walletDetails{
+  position: absolute;
+  bottom:20rem;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+  color: #282b2f;
+}
+
