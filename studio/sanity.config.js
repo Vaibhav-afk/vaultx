@@ -5,9 +5,9 @@ import {schemaTypes} from './schemas'
 
 export default defineConfig({
   name: 'default',
-  title: 'vaultx-blockchain-app',
+  title: 'vaultx-bloackchain-app',
 
-  projectId: 'q8rm8ibv',
+  projectId: 'hxdm5jjk',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
