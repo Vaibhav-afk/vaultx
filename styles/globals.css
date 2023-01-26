@@ -220,3 +220,95 @@ a {
 .Dashboard-MainContainer{
   flex: 1;
 }
+
+
+/*Portfolio styling*/
+
+.Portfolio-Wrapper{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.Portfolio-Content{
+  width: 100%;
+  max-width: 1000px;
+  padding: 2rem 1rem;
+}
+
+.Portfolio-Table{
+  width: 100%;
+}
+
+.Portfolio-TableRow{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Portfolio-TableRow > th{
+    text-align: left;
+}
+
+.Portfolio-TableItem{
+  padding: 1rem 2rem;
+}
+
+.Portfolio-Divider{
+  border-bottom: 1px solid #282b2f;
+}
+
+.Portfolio-Title{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+  
+
+/*Main styling*/
+
+.Main-Wrapper{
+  display: flex;
+  max-height: calc(100vh - 64px);
+  overflow: scroll;
+}
+
+.Main-Wrapper div{
+  border-radius: 0.4rem;
+}
+
+/*coin styling*/
+
+.Coin-Wrapper{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Coin-Wrapper > div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.Coin-NameCol{
+  align-items: center;
+  display: flex;
+}
+
+.Coin-Icon{
+  width: 1.8rem;
+  margin-right: 1rem;
+}
+
+.Coin-Primary{
+   margin-bottom: 0.1rem;
+}
+
+.Coin-Secondary{
+  color: #8a919a;
+  font-size: 0.8rem;
+}

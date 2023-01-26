@@ -4,6 +4,7 @@ import dogeLogo from '../assets/doge.png'
 import ethLogo from '../assets/eth.png'
 import lunaLogo from '../assets/luna.png'
 import solLogo from '../assets/sol.png'
+import vbvLogo from '../assets/vbv.jpg'
 
 export const coins = [
   {
@@ -66,4 +67,14 @@ export const coins = [
     change: 200.24,
     allocation: 17.89,
   },
+  {
+    name: 'Vaibhav',
+    sign: 'VBV',
+    logo: vbvLogo,
+    balanceUsd: 200,
+    balanceCoin: 60.3245681,
+    priceUsd: 153,
+    change: -2.12,
+    allocation: 33.27,
+  }
 ]
