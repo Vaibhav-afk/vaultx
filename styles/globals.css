@@ -215,6 +215,7 @@ a {
   width: 100vw;
   background-color: #0a0b0d;
   color: white;
+  overflow: hidden;
 }
 
 .Dashboard-MainContainer{
@@ -270,7 +271,7 @@ a {
 .Main-Wrapper{
   display: flex;
   max-height: calc(100vh - 64px);
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .Main-Wrapper div{
@@ -311,4 +312,56 @@ a {
 .Coin-Secondary{
   color: #8a919a;
   font-size: 0.8rem;
+}
+
+/*Sidebar*/
+
+.Sidebar-Wrapper{
+  height: calc(100vh);
+  border-right: 1px solid #282b2f;
+  width: calc(22rem - 16px - 16px);
+  /* TRouBLe */
+  padding: 0 1rem;
+}
+
+.Sidebar-LogoContainer{
+  margin: 1.5rem 0;
+}
+
+.Sidebar-Logo{
+  width: 44%;
+  object-fit: contain;
+  margin-left: 1.5rem;
+}
+
+.Sidebar-NavItemsContainer{
+  margin-top: 3rem;
+}
+
+.Sidebar:hover{
+  cursor:pointer;
+}
+
+.Sidebar-NavItems{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  height: 4rem;
+}
+
+.Sidebar-NavItems:hover{
+  background-color: #141519;
+  cursor: pointer;
+}
+
+.Sidebar-NavIcon{
+  background-color: #141519;
+  padding: 0.7rem;
+  border-radius: 50%;
+  margin: 0 1rem;
+  display: grid;
+  place-items: center;
 }

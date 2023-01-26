@@ -7,6 +7,7 @@ import Coin from "./Coin"
 export default function Portfolio() {
   return (
     <div className='Portfolio-Wrapper'>
+    
       <div className='Portfolio-Content'>
     
         <div className='Portfolio-TableItem'>
