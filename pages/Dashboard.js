@@ -8,7 +8,7 @@ export default function Dashboard({address}) {
     <div className='Dashboard-Wrapper'>
       <Sidebar/>
       <div className='Dashboard-MainContainer'>
-        <Header/>
+        <Header walletAddress={address}/>
         <Main/>
       </div>
     </div>

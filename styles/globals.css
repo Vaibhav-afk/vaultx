@@ -365,3 +365,49 @@ a {
   display: grid;
   place-items: center;
 }
+
+
+/*Promos styling*/
+
+.Promos-Wrapper{
+  margin-top: 2rem;
+  padding-right: 1rem;
+}
+
+.Promos-OfferCard{
+  width: 21rem;
+  height: 8rem;
+  border: 1px solid #282b2f ;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Promos-Title{
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.1rem;
+}
+
+.Promos-Description{
+  font-size: 1.1rem;
+}
+
+.Promos-Placeholder{
+  flex: 1;
+}
+
+.Promos-Additional{
+  font-size: 1.1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Promos-Additional > span{
+  color:#8a919e;
+  font-size: 1rem;
+}
+
