@@ -1,6 +1,5 @@
 {
-  "name": "vaultx",
-  "version": "0.1.0",
+  "name": "coinbase-clone",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,17 +8,30 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "13.1.4",
-    "@sanity/client": "^4.0.1",
-    "@sanity/image-url": "^1.0.2",
-    "@thirdweb-dev/react": "^3.6.10",
-    "@thirdweb-dev/sdk": "^3.6.10",
-    "eslint": "8.32.0",
-    "eslint-config-next": "13.1.4",
-    "ethers": "^5.7.2",
-    "next": "13.1.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.7.1"
+    "@3rdweb/hooks": "^1.8.0",
+    "@3rdweb/react": "^1.8.1",
+    "@3rdweb/sdk": "^1.35.0",
+    "@sanity/client": "^2.23.2",
+    "@sanity/image-url": "^1.0.1",
+    "@svgr/webpack": "^6.2.0",
+    "babel-plugin-styled-components": "^2.0.2",
+    "chart.js": "^3.7.0",
+    "crypto-icons": "^1.0.65",
+    "cryptocurrency-icons": "^0.18.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.5.3",
+    "magic-sdk": "^7.0.0",
+    "next": "12.0.8",
+    "react": "17.0.2",
+    "react-chartjs-2": "^4.0.0",
+    "react-crypto-icons": "^1.0.5",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-modal": "^3.14.4",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.8"
   }
 }
